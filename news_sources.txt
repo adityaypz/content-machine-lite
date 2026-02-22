@@ -1,6 +1,0 @@
-https://feeds.reuters.com/reuters/businessNews
-https://feeds.reuters.com/Reuters/worldNews
-https://www.investing.com/rss/news_25.rss
-https://www.marketwatch.com/rss/topstories
-https://www.imf.org/en/News/rss
-https://www.federalreserve.gov/feeds/press_all.xml
