@@ -1,11 +1,14 @@
 # content-machine-lite
 
-Free‑tier content pipeline for creators. Pulls fresh ideas from RSS sources and generates a weekly content draft (no paid APIs required).
+A free‑tier content pipeline for creators. It pulls fresh ideas from RSS sources and generates a weekly draft (no paid APIs required).
+
+## Why it exists
+Creators spend more time **finding ideas** than creating. This MVP reduces the blank‑page problem by turning trending sources into a draft you can review.
 
 ## What it does
 - Fetches latest posts from RSS sources
 - Picks top ideas
-- Outputs a simple content draft in `output/ideas.md`
+- Outputs a clean draft in `output/ideas.md`
 
 ## Quick start
 ```bash
@@ -34,6 +37,11 @@ python content_machine.py
 ## Output
 - `output/ideas.md`
 
+## Roadmap (short)
+- Add Reddit/YouTube sources
+- Add simple scheduling (Buffer/Typefully)
+- Add multi‑format drafts (threads, newsletter, scripts)
+
 ## Notes
-- This is an MVP / demo. You can replace RSS with Twitter/Reddit scraping later.
+- MVP / demo. Replace RSS with Twitter/Reddit scraping later.
 - Manual review is recommended before posting.
