@@ -36,6 +36,13 @@ python content_machine.py
 
 ## Output
 - `output/ideas.md`
+- `output/updates.txt` (news bot)
+
+## News bot (macro updates)
+```bash
+python news_bot.py
+```
+Edit `news_sources.txt` to customize sources.
 
 ## Roadmap (short)
 - Add Reddit/YouTube sources
